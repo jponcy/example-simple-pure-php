@@ -1,0 +1,10 @@
+<?php
+
+$db = new \Utils\Configuration([
+    'host'      => 'localhost',
+    'sgbd'      => 'mysql',
+    'database'  => 'my_db_name',
+    'user'      => 'root',
+    'password'  => 'toor',
+    'options'   => null
+]);
